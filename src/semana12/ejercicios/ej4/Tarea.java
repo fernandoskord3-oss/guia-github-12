@@ -1,0 +1,14 @@
+package semana12.ejercicios.ej4;
+
+public class Tarea implements Calificable {
+    private int nota;
+
+    public Tarea(int nota) {
+        this.nota = nota;
+    }
+
+    @Override
+    public int puntos() {
+        return nota;
+    }
+}
